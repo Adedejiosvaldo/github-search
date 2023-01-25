@@ -8,6 +8,8 @@ import { AboutPage } from "./pages/AboutPage";
 
 import { Home } from "./pages/Home";
 import NotFound from "./pages/notFound";
+import User from "./pages/User";
+import Users from "./pages/Users";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Alert />
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/user/:login' element={<Users />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/*' element={<NotFound />} />
             <Route path='/notfound' element={<NotFound />} />
