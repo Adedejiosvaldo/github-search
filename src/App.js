@@ -8,7 +8,6 @@ import { AboutPage } from "./pages/AboutPage";
 
 import { Home } from "./pages/Home";
 import NotFound from "./pages/notFound";
-import User from "./pages/User";
 import Users from "./pages/Users";
 
 function App() {

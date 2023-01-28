@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from "react";
 import githubReducer from "../GithubReducer";
 export const GithubContext = createContext();
-const Github = process.env.REACT_APP_GITHUB_URL;
+
 export const Provider = ({ children }) => {
   const initialState = {
     users: [],
